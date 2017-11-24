@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+ <html manifest="/cache.appcache">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laba6</title>
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="css/style.css">
+  </head>
+  <body>
+  	<div class="navbar navbar-inverse navbar-fixed-top">
+  		<div class='container'>
+  			<div class="navbar-header">
+  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  				</button>
+  				<a class="navbar-brand" href="http://iot.lviv.ua/">I<i class="fa fa-cog" aria-hidden="true"></i>T</a>
+  			</div>
+  			<div class="navbar-collapse collapse">
+  				<ul class="nav navbar-nav navbar-right">
+  					<li><a href="index.html">Головна</a></li>
+          		<li><a href="News.html">Новини</a></li>
+          		<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Студентам</a>
+						<ul class="dropdown-menu">
+							<li><a href="Students.html">Програма</a></li>
+							<li><a href="#">Лабораторні</a></li>
+							<li><a href="#">Література</a></li>
+						</ul>
+          		</li>
+          		<li class="active"><a href="Coment.html">Відгуки</a></li>
+          		<li><a href="Contact.html">Контакти</a></li>
+          		<li><a href="Admin.html"><i class="fa fa-lock" aria-hidden="true"></i> Admin</a></li>
+        		</ul>
+  			</div>
+  		</div>	
+  	</div>
+    <div class="container">
+        <div class="review">    
+            <div class="user_name"><h1>Вася Пупкін</h1></div>
+            <div class="review"><h4>13.11.2017, 16:00</h4></div>
+            <div class="review_text">
+                <p>Навіщо ви зробили мінімальне замовлення на піццу 150 гривень?! Я рік у вас замовляв піццу, а тепер що робити? Піцца коштує 100-120 грн, а я тепер мушу щось дозамовляти?! Але я нічого не хочу, я хочу піццу за 120 гривень! А у вас мінімальне 150!! То дуже не гарно з вашого боку!!</p>   
+            </div>
+        </div>
+        <div class="review">    
+            <div class="user_name"><h1>Наталія</h1></div>
+            <div class="review"><h4>13.11.2017, 17:00</h4></div>
+            <div class="review_text">
+                <p>
+Періодично здійснюю тут замовлення протягом останніх 1-1.5 року. Все досить непогано в порівнянні з іншими сервісами Львова. Все дуже смачно: піца, супи, суші. Особливе місце посідає салат Цезар, незвичний рецепт, але дууже смачно. 
+Правда, цінова політика на суші не така лояльна як на піцу, але в порівнянні з початком діяльності Панди суші однозначно стали кращими, але ще, однозначно, є куди рухатись...
+Порекомендувала вас декільком друзям і родичам які також стали вашими постійними клієнтами.
+Сьогодні вперше лишаю відгук, оскільки особливо задоволена замовленням. Приємні дівчинка-операт ор і ввічливі курєри, здійснили доставку за рекордні 30 хв.
+Звертаюсь до керівництва Панди, цінуйте хороших працівників і буду вдячна якщо врахуєте мій відгук при нарахуванні премій та новорічних бонусів своїм працівникам!:))))
+І надіюсь, що будете ставати тільки кращими, а не деградувати, як це роблять в процесі розширення бізнесу деякі сервіси нашого міста.</p>   
+            </div>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="send_review">Залишити відгук:</label>
+                <textarea id="coment_text" class="form-control" rows="10"></textarea>
+            </div>
+
+            <input id="coment_button" type="submit"  class="btn" value="Надіслати"></input>
+        </form>
+    </div>
+	<div class="footer">
+	  	<div class="container centered">
+	  		<a href="#"><i class="fa fa-facebook"></i></a>
+	  		<a href="#"><i class="fa fa-twitter"></i></a>
+	  		<a href="#"><i class="fa fa-vk"></i></a>
+		</div>
+	 </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+      </body>
+</html>
